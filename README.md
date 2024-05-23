@@ -17,6 +17,7 @@ Run the docker-compose project:
 
 
 View the qbittorrent container logs to find the password generated for qbittorrent:
+
 `docker compose logs qbt`
 
 
