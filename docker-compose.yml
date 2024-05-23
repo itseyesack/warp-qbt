@@ -14,7 +14,8 @@ services:
       - 8080:8080
 
   qbt:
-    build: .
+#    build: .
+    image: ghcr.io/itseyesack/warp-qbt
     network_mode: "service:wgcf"
     depends_on:
       - wgcf
