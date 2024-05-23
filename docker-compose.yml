@@ -15,7 +15,7 @@ services:
 
   qbt:
 #    build: .
-    image: ghcr.io/itseyesack/warp-qbt
+    image: ghcr.io/itseyesack/warp-qbt:main
     network_mode: "service:wgcf"
     depends_on:
       - wgcf
